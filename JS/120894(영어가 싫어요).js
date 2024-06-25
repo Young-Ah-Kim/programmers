@@ -3,5 +3,5 @@ function solution(numbers) {
     for (let i = 0; i<10; i++){
         numbers = numbers.split(n_list[i]).join(i);
     }
-return +numbers;
+return Number(numbers);
 }
